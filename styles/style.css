@@ -1,0 +1,93 @@
+:root {
+  /* colors */
+  --clr-light: #F1EFEF;
+  --clr-dark: #191717;
+  --clr-gray: #7D7C7C;
+  --clr-clay-ash: #CCC8AA;
+  --clr-btn: #1E1E1E;
+
+  /* sizes */
+  --size-xss: 0.5rem;
+  --size-xs: 0.75rem;
+  --size-sm: 0.875rem;
+  --size-base: 1rem;
+  --size-lg: 1.125rem;
+  --size-xl: 1.25rem;
+  --size-2xl: 1.5rem;
+  --size-3xl: 1.875rem;
+  --size-4xl: 2.25rem;
+  --size-5xl: 3rem;
+  --size-6xl: 3.75rem;
+  --size-7xl: 4.5rem;
+  --size-8xl: 6rem;
+  --size-9xl: 8rem;
+  --size-10xl: 10rem;
+}
+
+/*CSS RESET*/
+* {
+  margin: 0;
+  padding: 0;
+  line-height: calc(1em + 0.5rem);
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  background-color: var(--clr-dark);
+  color: var(--clr-light);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+input, button, textarea, select {
+  font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+  user-select: none;
+}
+
+button {
+  display: inline-block;
+  padding: 0;
+  border: none;
+  background: none;
+  cursor: pointer;
+  color: var(--clr-light);
+}
+
+ol, ul {
+	list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  outline: 0;
+  cursor: pointer;
+}
+
+body::-webkit-scrollbar {
+  width: 0.7em;
+}
+ 
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: var(--clr-clay-ash);
+  outline: 1px solid var(--clr-clay-ash);
+}

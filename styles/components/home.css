@@ -1,0 +1,291 @@
+/* .link__line {
+  border-left: 1px solid var(--clr-light);
+  height: 200px;
+}
+
+.social__link {
+  display: flex;
+  flex-direction: column;
+  gap: var(--size-2xl);
+  height: 660px;
+  width: 60px;
+  justify-content: flex-end;
+  align-items: center;
+} */
+
+.link__line {
+  border-bottom: 1px solid var(--clr-light);
+  width: 200px;
+}
+
+.social__link {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--size-2xl);
+  margin-top: var(--size-base);
+} 
+
+.hero__description {
+  margin-top: var(--size-7xl);
+  display: flex;
+  flex-direction: column;
+  gap: var(--size-sm);
+}
+
+.nav__link {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: var(--size-8xl);
+  gap: var(--size-7xl);
+}
+
+.nav__link a > button {
+  font-size: var(--size-10xl);
+}
+
+.tclrAsh {
+  color: var(--clr-clay-ash);
+}
+
+.btn__one::after {
+  content: "Hello.";
+}
+
+.btn__two::after {
+  content: "I'm";
+}
+
+.btn__three::after {
+  content: "Ghian";
+}
+
+
+/* xs */
+@media (min-width: 475px) {
+  .btn__one::after {
+    content: 'Hello.';
+  }
+
+  .btn__one.about-text::after {
+    content: 'About.';
+    font-family: 'DM Serif Display', serif;
+    font-weight: 400;
+    font-size: var(--size-8xl);
+  }
+  
+  .btn__two::after {
+    content: "I'm";
+  }
+
+  .btn__two.work-text::after {
+    content: 'Work';
+    font-family: 'DM Serif Display', serif;
+    font-weight: 400;
+    font-size: var(--size-8xl);
+    color: var(--clr-clay-ash);
+  }
+  
+  .btn__three::after {
+    content: "Ghian";
+  }
+
+  .btn__three.contact-text::after {
+    content: 'Contact';
+    font-family: 'DM Serif Display', serif;
+    font-weight: 400;
+    color: var(--clr-clay-ash);
+    font-size: var(--size-9xl);
+  }
+}
+
+/* sm */
+@media (min-width: 640px) {
+
+  .social__link {
+    gap: var(--size-3xl);
+    margin-top: var(--size-2xl);
+    margin-left: var(--size-4xl);
+  } 
+
+  .hero__description {
+    margin-top: var(--size-8xl);
+    gap: var(--size-base);
+    margin-left: var(--size-4xl);
+  }
+  
+  .nav__link {
+    margin-top: var(--size-9xl);
+    gap: var(--size-7xl);
+  }
+  
+  .nav__link a > button {
+    font-size: var(--size-9xl);
+    margin-left: var(--size-4xl);
+  }
+
+  .headerFnt {
+    font-size: var(--size-2xl);
+  }
+  
+  .prgphFnt {
+    font-size: var(--size-lg);
+  }
+}
+
+/* md */
+@media (min-width: 768px) {
+  .social__link {
+    gap: var(--size-4xl);
+    margin-top: var(--size-3xl);
+  } 
+
+  .hero__description {
+    margin-top: var(--size-9xl);
+    gap: var(--size-xl);
+  }
+  
+  .nav__link {
+    margin-top: var(--size-10xl);
+    gap: var(--size-8xl);
+  }
+  
+  .nav__link a > button {
+    font-size: var(--size-10xl);
+  }
+
+  .headerFnt {
+    font-size: var(--size-3xl);
+  }
+  
+  .prgphFnt {
+    font-size: var(--size-xl);
+  }
+
+  .social__icon {
+    min-width: var(--size-3xl);
+  }
+}  
+
+/* lg */
+@media (min-width: 1024px) {
+  .social__link {
+    gap: var(--size-5xl);
+    margin-top: var(--size-4xl);
+  } 
+
+  .hero__description {
+    margin-top: var(--size-9xl);
+    gap: var(--size-4xl);
+  }
+  
+  .nav__link {
+    gap: var(--size-8xl);
+  }
+  
+  .headerFnt {
+    font-size: var(--size-4xl);
+  }
+  
+  .prgphFnt {
+    max-width: 800px;
+  }
+}
+
+/* xl */
+@media (min-width: 1280px) {
+  .main__content {
+    display: flex;
+  }
+
+  .link__line {
+    display: none;
+  }
+
+  .link__vertical__line{
+    border-left: 1px solid var(--clr-light);
+    height: 120px;
+  }
+
+  .social__link {
+    display: flex;
+    flex-direction: column;
+    gap: var(--size-4xl);
+    height: 625px;
+    width: 60px;
+    justify-content: flex-end;
+    align-items: center;
+  } 
+
+  .social__icon:hover {
+    transform: translateY(-5px);
+  }
+
+  .social__icon {
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .hero__description {
+    gap: var(--size-base);
+    margin-left: var(--size-9xl);
+    justify-content: center;
+  }
+  
+  .nav__link {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: var(--size-9xl);
+    margin-right: var(--size-2xl);
+  }
+
+  .nav__link a > button {
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .nav__link a > button:hover {
+    transform: translateX(50px);
+  }
+  
+  .headerFnt {
+    font-size: var(--size-2xl);
+  }
+  
+  .prgphFnt {
+    font-size: var(--size-lg);
+    max-width: 500px;
+  }
+
+  .btn__one::after {
+    content: "Hello.";
+    position: absolute;
+  }
+
+  .btn__one:hover::after {
+    content: "About";
+  }
+
+  .btn__two::after {
+    content: "I'm";
+    position: absolute;
+  }
+
+  .btn__two:hover::after {
+    content: "Work";
+  }
+
+  .btn__three::after {
+    content: "Ghian";
+    position: absolute;
+  }
+
+  .btn__three:hover::after {
+    content: "Contact";
+    font-size: 8.4rem;
+  }
+
+}
+
+/* 2xl */
+/* @media (min-width: 1536px) {} */
