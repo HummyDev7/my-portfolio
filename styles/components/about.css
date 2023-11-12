@@ -124,7 +124,7 @@ body {
 
   .prgph {
     font-size: var(--size-xl);
-    max-width: 540px;
+    max-width: 290px;
   }
 
   .st__img {
@@ -162,7 +162,7 @@ body {
   }
 
   .vscode-text {
-    font-size: 0.84rem;
+    font-size: 0.8rem;
   }
 }
 

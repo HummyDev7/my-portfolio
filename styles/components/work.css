@@ -1,6 +1,6 @@
 
 .work__description {
-  margin-left: var(--size-5xl);
+  margin-left: var(--size-2xl);
   margin-top: var(--size-6xl);
   display: flex;
   flex-direction: column;
@@ -89,6 +89,14 @@ section.home__link {
   display: block;
 }
 
+/* xss */
+@media (min-width: 345px) {
+  section.home__link {
+    right: 25px;
+    position: relative;
+  }
+}
+
 /* xs */
 /* @media (min-width: 475px) {} */
 
@@ -105,6 +113,10 @@ section.home__link {
       'image5 content5'
       'content6 image6';
     place-items: center;
+  }
+
+  section.home__link {
+    right: 0;
   }
 
   .work__image__one {

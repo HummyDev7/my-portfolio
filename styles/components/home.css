@@ -61,6 +61,42 @@
   content: "Ghian";
 }
 
+/* xss */
+@media (min-width: 345px) {
+  .social__link {
+    gap: var(--size-xl);
+    margin-top: var(--size-3xl);
+    margin-left: var(--size-base);
+  } 
+
+  .social__icon {
+    min-width: var(--size-xl);
+  }
+
+  .hero__description {
+    gap: var(--size-xl);
+    margin-left: var(--size-base);
+  }
+  
+  .nav__link {
+    margin-top: var(--size-7xl);
+    gap: var(--size-5xl);
+  }
+  
+  .nav__link a > button {
+    font-size: 6.5rem;
+    margin-left: var(--size-base);
+  }
+
+  .headerFnt {
+    font-size: var(--size-2xl);
+  }
+  
+  .prgphFnt {
+    font-size: var(--size-lg);
+  }
+}
+
 
 /* xs */
 @media (min-width: 475px) {
