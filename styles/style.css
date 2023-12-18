@@ -24,6 +24,10 @@
   --size-10xl: 10rem;
 }
 
+.resume {
+  cursor: pointer;
+}
+
 /*CSS RESET*/
 * {
   margin: 0;
