@@ -55,11 +55,11 @@
 }
 
 .home__btn::after {
-  content: "ghian.";
+  content: "edgar.";
 }
 
 .home__btn:hover::after{
-  content: "ghian.home";
+  content: "edgar.home";
 }
 
 .loading {

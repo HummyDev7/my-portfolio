@@ -58,7 +58,7 @@
 }
 
 .btn__three::after {
-  content: "Ghian";
+  content: "Edgar";
 }
 
 /* xss */
@@ -124,7 +124,7 @@
   }
   
   .btn__three::after {
-    content: "Ghian";
+    content: "Edgar";
   }
 
   .btn__three.contact-text::after {
@@ -312,7 +312,7 @@
   }
 
   .btn__three::after {
-    content: "Ghian";
+    content: "Edgar";
     position: absolute;
   }
 
